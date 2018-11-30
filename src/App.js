@@ -93,6 +93,7 @@ onbuttonClick = () => {
             'currentEntries': this.state.logUSer.entries})
           }
         if(response){
+          console.log(response);
           fetch('https://nicer-smart-brain.herokuapp.com/image',image)
           .then(res => res.json())
           .then(userEntries => {
@@ -107,7 +108,7 @@ onbuttonClick = () => {
       })
   .catch(err => {
       isClick= false;
-            this.forceUpdate();
+      this.forceUpdate();
       this.displayError('Invalid image address')
 
      });
