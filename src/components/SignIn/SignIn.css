@@ -1,0 +1,90 @@
+
+.Loginform{
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Loginform p:nth-child(1){
+	color: red;
+	display: none;
+}
+.formContainer, .Loginform{
+	display: flex;
+	justify-content: center;
+}
+.formContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20rem;
+	width: 19rem;
+}
+#formBox{
+	margin-top:1rem;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.formContent:last-child p{
+	font-size: .8rem;
+	cursor:pointer;
+	color:rgb(102, 102, 102);
+}
+.formContent:last-child p:hover{
+	transition: .3s all ;
+	color:black;
+	text-decoration: underline;
+}
+
+.formContent{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.Loginform label {
+	padding: 0 0 2px 0;
+} 
+.textBoxx{
+	text-indent: 1rem;
+	background: transparent;
+	border-radius: 4px;
+	border: 1px solid rgb(217, 217, 217);
+	height: 2.3rem;
+	width: 88%;
+}
+.textBoxx::placeholder{
+	text-indent: 1rem;	
+}
+.textBoxx:focus{
+		box-shadow: 0 0 10px 3px rgb(53, 149, 255);
+		background: white;
+
+}
+.btn-primary{
+	width: 60%;
+	color:white;
+	border-style: none;
+	height: 3rem;
+	background: rgb(13, 128, 255);
+	border-radius: 4px;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	transition: all .5s;
+	background: rgb(0, 105, 217);
+}
+.btn-primary:active{
+	box-shadow: 0 0 1px 5px rgb(53, 149, 255);
+	transition:  transform .12s;
+	transform: scale(.93);
+}
+.formContent #btnLogin{
+	height: 3.5rem;
+	width: 10rem
+}
+

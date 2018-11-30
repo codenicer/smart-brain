@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.particles{
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index:-1;
+}
+#navlog{
+	display: flex;
+  flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: .7rem;
+}
+@media(max-width: 459px){
+    #navlog{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: .7rem;
+   }
+    #navigation{
+    display: flex;
+    justify-content: center;
+   }
+}
+

@@ -1,0 +1,13 @@
+.Tilt{
+
+	 background-image: linear-gradient(50deg,rgb(89, 89, 255) 0%, rgb(128, 255, 128) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logoholder{
+	margin:0px 0px 0px 2rem;
+}
+.img p, .img img{
+	margin:0;
+}

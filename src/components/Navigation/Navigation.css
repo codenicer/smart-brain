@@ -1,0 +1,22 @@
+nav{
+	display: flex;
+	justify-content:flex-end;
+}
+.linkk{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#signlogo{
+	padding-right: 0.2rem;
+	max-height: 2.5rem;
+}
+nav div img+p {
+	color: rgba(0,0,0,1);
+	text-decoration: underline;
+}
+nav div{
+	margin:.2rem;
+}
+
